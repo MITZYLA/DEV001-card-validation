@@ -3,46 +3,91 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo Validación Tarjeta de crédito</title>
+    <title>Tarjeta de credito valida</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
 
   <body>
-    <h1>VALIDACION TARJETA DE CREDITO</h1>
+    <header> 
+       <h1>Centro de terapia y relajacion M</h1>
+       <!-------imagen de logo--------->
+      <div style="text-align: center;">
+        <img src="https://midasmassagetherapy.com/wp-content/uploads/2015/02/about-logo-shadow-1024x712.png" class="logo">
+      </div>  
+    </header>    
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">
+          </a>
+
+        </li>
+      </ul>
+    </nav>
+  
+  <div id="container">
+  
+  <section id="content">
+
+    <article class="article">
+      <h2>Tratamiento de descontracturante/relajante cuerpo completo 6 sesiones</h2>
+         <p>VALOR 75.000 CLP</p><button id="btn-pay" class="btn-pay-style">PAGAR TTO1</button>
+     </article>
+     <hr>
+     <br>
+
+
+    <article class="article">
+      <h2>Tratamiento de descontracturante/relajante espalda+brazos+cuello+craneal 6 sesiones</h2>
+      <p>VALOR 65.000 CLP</p><button id="btn-pay2" class="btn-pay-style">PAGAR TTO2</button>
+    </article>
     <hr>
     <br>
-    <h2>Tratamiento reductivo con aparatología</h2>
-    <br>
-     <br>
-     <h3>Valor tratamiento estetico de 18 sesiones</h3>
-     <h2>$400.000 CLP</h2>
-     <br> 
-     <hr>
-     <h1>Ir al medio de pago</h1>
-     <br>
-     <div>
-      <!-- <button id="btn-yes" class="botones">Debito</button>
-      <button id="btn-yes" class="botones">Tarjeta de credito</button>
-      <button id="btn-yes" class="botones">Transferencia bancaria</button> -->
-      <button id="btn-pay" class="btn-pay-style">Ir a pagar</button>
-     </div>
+    
+    <article class="article">
+      <h2>Tratamiento de descontracturante/relajante + piedras calientes cuerpo completo 6 sesiones</h2>
+      <p>VALOR 100.000 CLP</p><button id="btn-pay3" class="btn-pay-style">PAGAR TTO3</button>
+    </article>
+    <hr>
+    <hr>
+    <br> 
 
-     <section id="stn-pay" class="">
+    <aside>
+      <h2>Ir al medio de pago</h2>
+                 
+     </aside>
+
+  </section>    
+         
+
+     <section id="stn-pay" class="" style="display: none;">
 
     
       <br>
       <hr>
       <br>
-      <h3>ingresa el numero de tarjeta</h3><img src="https://tarjetadecredito.pro/wp-content/uploads/2020/03/image-18.png" alt="ejemplo"><br>
-      <input type="number">
+      <h3>ingresa el numero de tarjeta</h3><img id="card" src="https://tarjetadecredito.pro/wp-content/uploads/2020/03/image-18.png" alt="ejemplo" style="display: none;"><br>
+      <input type="number"><button id="question">?</button>
+          
+      
       <h3>ingresa fecha de vencimiento</h3>
-      <input type="date">
-      <h3>ingresa clave de seguridad</h3><img src="https://tarjetadecredito.pro/wp-content/uploads/2020/03/image-19.png" alt="ejemplo"><br>
-      <input type="text">
-     </section>
-        <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+      <br>   
+      <input type="date"><br>
+      
+      
+      <h3>ingresa clave de seguridad</h3><img id="card2" src="https://tarjetadecredito.pro/wp-content/uploads/2020/03/image-19.png" alt="ejemplo" style="display: none;"><br>
+      <input type="number"><button id="question2">?</button>
+    
+     </section>        
+    
+        <script src="index.js" type="module"></script><br>
+        <br>
+        <br>
+
+        <footer>
+          AGRADECEMOS TU CONFIANZA EN NOSOTRAS
+        </footer>
 
   </body>
 </html>
