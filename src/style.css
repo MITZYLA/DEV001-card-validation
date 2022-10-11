@@ -19,7 +19,37 @@
       }
 
     footer{
-        background-color: purple;
+        background-color: rgb(245, 35, 245);
      }
+
+     img#card{
+        width: 30%;
+        height: 30%;
+        margin: auto;
+      }
+
+      img#card2{        
+        width: 30%;
+        height: 30%;
+        margin: auto;
+      }
+
+      button#btn-pay.btn-pay-style{
+        color: purple;
+        background-color: burlywood;
+      }
+
+      button#btn-pay2.btn-pay-style{
+        color: purple;
+        background-color: burlywood;
+      }
+
+      button#btn-pay3.btn-pay-style{
+        color: purple;
+        background-color: burlywood;
+      }
+
+ 
+   
 
      

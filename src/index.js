@@ -16,10 +16,30 @@ const card = document.getElementById('card')
 const card2 = document.getElementById('card2')
 
 //para que aparezcan objetos o funciones ocultas;
-btnPay.addEventListener('click', () => {stnPay.style.display ="block"; });
-btnPay2.addEventListener('click', () => {stnPay.style.display ="block"; });
-btnPay3.addEventListener('click', () => {stnPay.style.display ="block"; });
+btnPay.addEventListener('click', () => { stnPay.style.display = "block"; });
+btnPay2.addEventListener('click', () => { stnPay.style.display = "block"; });
+btnPay3.addEventListener('click', () => { stnPay.style.display = "block"; });
 
 // quí se especificó cada boton de question, 1y2;
-question.addEventListener('click', () => {card.style.display='block';});
-question2.addEventListener('click', () => {card2.style.display='block';});
+question.addEventListener('click', () => { card.style.display = 'block'; });
+question2.addEventListener('click', () => { card2.style.display = 'block'; });
+
+//declaro constante validar
+const validar = document.getElementById("validacion");
+//le asigno el evento clic al boton y cuando se cliquee el boton se ejecuta la funcion especificada
+validar.addEventListener("click", function (event) {
+    //evitamos redireccion de la pagina
+    event.preventDefault();
+    //declaro la constante creditCardNumber y extraigo el imput del id cardNumber
+    const creditCardNumber = document.getElementById("cardNumber");
+    //verifico la validez de la tarjeta extrayendo el value
+    if (validator.isValid(creditCardNumber.value)) {
+        //aca enmascaro los caracteres
+        const creditCardMask = validator.maskify(creditCardNumber.value)
+        //aca se mujestra el mensaje en caso de ser valida la tarjeta
+        alert("Tu tarjeta" + creditCardMask + "es valida para realizar la compra")
+    } else {
+        //en caso de no ser valida la tarjeta mustra alert "tarjeta no valida"
+        alert("Tarjeta no valida")
+    }
+})
