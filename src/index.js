@@ -28,6 +28,12 @@ question2.addEventListener('click', () => { card2.style.display = 'block'; });
 const validar = document.getElementById("validacion");
 //le asigno el evento clic al boton y cuando se cliquee el boton se ejecuta la funcion especificada
 validar.addEventListener("click", function (event) {
+    //ler inputvalue, lo use para que el campo no permita quedar en blanco
+    let inputvalue= document.getElementById("cardNumber").value
+    if(inputvalue==""){
+        alert("ingrese un número");
+        document.location.reload();
+    }
     //evitamos redireccion de la pagina
     event.preventDefault();
     //declaro la constante creditCardNumber y extraigo el imput del id cardNumber
@@ -36,8 +42,9 @@ validar.addEventListener("click", function (event) {
     if (validator.isValid(creditCardNumber.value)) {
         //aca enmascaro los caracteres
         const creditCardMask = validator.maskify(creditCardNumber.value)
-        //aca se mujestra el mensaje en caso de ser valida la tarjeta
-        alert("Tu tarjeta" + creditCardMask + "es valida para realizar la compra")
+        //aca se muestra el mensaje en caso de ser valida la tarjeta
+        //me sugirió reescribir y cambiar las "" y el + por $, ' y {}
+        alert(`Tu tarjeta${creditCardMask}es valida para realizar la compra`)
     } else {
         //en caso de no ser valida la tarjeta mustra alert "tarjeta no valida"
         alert("Tarjeta no valida")

@@ -5,7 +5,7 @@ isValid(creditCardNumber) {
     let value;
     //iteramos en base a la cantidad de numeros de la tarjeta (16)
     for (let i = 0; i < creditCardNumber.length; i++) {
-      //en este if el residuo entre la posision y el 2 debe ser igual a 0
+      //en este if el residuo entre la posición y el 2 debe ser igual a 0
       if (i % 2 == 1) {
         //en caso de que el if anterior sea verdadero duplicamos el numero 
         value = 2 * creditCardNumber[i];
@@ -36,7 +36,7 @@ maskify(creditCardNumber) {
         string = string + '#';
       } else {
         string = string + arr[i];
-      }
+      }  
     }
     return string;
   }
