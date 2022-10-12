@@ -1,0 +1,55 @@
+    body{
+        background-color: rgb(202, 169, 240);
+        font-family: Arial, Helvetica, sans-serif; 
+        margin: 100px auto;
+        text-align: center;
+
+      }
+
+    #container{
+        width: 60%;
+        margin: 0px auto;
+      }
+
+
+    .logo{
+        width: 500px;
+        height: 400px;
+        margin: 0px auto;
+      }
+
+    footer{
+        background-color: rgb(245, 35, 245);
+     }
+
+     img#card{
+        width: 30%;
+        height: 30%;
+        margin: auto;
+      }
+
+      img#card2{        
+        width: 30%;
+        height: 30%;
+        margin: auto;
+      }
+
+      button#btn-pay.btn-pay-style{
+        color: purple;
+        background-color: burlywood;
+      }
+
+      button#btn-pay2.btn-pay-style{
+        color: purple;
+        background-color: burlywood;
+      }
+
+      button#btn-pay3.btn-pay-style{
+        color: purple;
+        background-color: burlywood;
+      }
+
+ 
+   
+
+     
