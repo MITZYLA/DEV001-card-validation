@@ -28,12 +28,14 @@ question2.addEventListener('click', () => { card2.style.display = 'block'; });
 const validar = document.getElementById("validacion");
 //le asigno el evento clic al boton y cuando se cliquee el boton se ejecuta la funcion especificada
 validar.addEventListener("click", function (event) {
-    //ler inputvalue, lo use para que el campo no permita quedar en blanco
+    //let inputvalue, lo use para que no permita quedar el input en blanco
     let inputvalue= document.getElementById("cardNumber").value
     if(inputvalue==""){
         alert("ingrese un número");
         document.location.reload();
     }
+    else{
+    
     //evitamos redireccion de la pagina
     event.preventDefault();
     //declaro la constante creditCardNumber y extraigo el imput del id cardNumber
@@ -49,4 +51,5 @@ validar.addEventListener("click", function (event) {
         //en caso de no ser valida la tarjeta mustra alert "tarjeta no valida"
         alert("Tarjeta no valida")
     }
+}
 })
