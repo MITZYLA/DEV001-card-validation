@@ -29,9 +29,9 @@ Mi objetivo es llegar tanto a usuarios dueños de comercio que quieran ofrecer s
 
 5. Interfaz final
 
-![Primera Página](Captura proyecto1.PNG)
+![Primera Página](Captura proyecto1.jpg)
 
-![Segunda Página](Captura2 proyecto1.PNG)
+![Segunda Página](Captura2 proyecto1.jpg)
 
 6. Enlace a Validación de compra
 
