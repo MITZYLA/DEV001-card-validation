@@ -29,9 +29,9 @@ Mi objetivo es llegar tanto a usuarios dueños de comercio que quieran ofrecer s
 
 5. Interfaz final
 
-![Primera Página] (Captura proyecto1.jpg)
+![Captura proyecto1](https://user-images.githubusercontent.com/114257105/196417918-d045dd74-426b-44ee-8db6-be3b769968f7.jpg)
 
-![Segunda Página] (Captura2 proyecto1.jpg)
+![Captura2 proyecto1](https://user-images.githubusercontent.com/114257105/196417774-0d13142e-38a0-464f-92ad-9c392c7bd67a.jpg)
 
 6. Enlace a Validación de compra
 
