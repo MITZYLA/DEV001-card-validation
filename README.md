@@ -4,13 +4,13 @@
 
 1. [Algorítmo de Luhn](#1-algorítmo-de-luhn)
 2. [Descripción del Producto](#2-descripción-del-producto)
-3. [Principales Usuarios y Objetivo](#3-principales-usuarios-y-objetivos)
-4. [Prototipo](#4-prototipo)
+3. [Principales Usuarios y Objetivo](#3-principales-usuarios-y-objetivo)
+4. [Prototipos](#4-prototipos)
 5. [Interfaz Final](#5-interfaz-final)
 6. [Enlace a Validación de compra](#6-enlace-a-validación-de-compra)
 
 
-### 1. Algoritmo de Luhn
+### 1. Algorítmo de Luhn
 El Algoritmo de Luhn o también conocido por "algorítmo de módulo 10", es un método creado para la verificación de números de identificación, como los números de las tarjetas de crédito (Visa, MasterCard) o el IMEI de los teléfonos móviles.
 
 Su creador fue Hans Peter Luhn, un científico de IBM y su uso ha sido tan extendido que desde que fue creado sigue controlando la creación y validación de todas las tajetas del mundo.
