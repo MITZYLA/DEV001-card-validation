@@ -35,8 +35,7 @@ validar.addEventListener("click", function (event) {
        // document.location.reload();
     }
     else{
-      console.log("estoy dentro del else");
-      //evitamos redireccion de la pagina
+       //evitamos redireccion de la pagina
       event.preventDefault();
       //declaro la constante creditCardNumber y extraigo el imput del id cardNumber
       const creditCardNumber = document.getElementById("cardNumber");
