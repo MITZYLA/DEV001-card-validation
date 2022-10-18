@@ -5,15 +5,15 @@ console.log(validator);
 
 //estos son los botones de paqgo de cada tratamiento;
 const btnPay = document.getElementById("btn-pay");
-const btnPay2 = document.getElementById("btn-pay2")
-const btnPay3 = document.getElementById("btn-pay3")
+const btnPay2 = document.getElementById("btn-pay2");
+const btnPay3 = document.getElementById("btn-pay3");
 
 //aqui use question2 y card2 para llamar al id desde html;
 const stnPay = document.getElementById("stn-pay");
 const question = document.getElementById("question");
 const question2 = document.getElementById("question2");
-const card = document.getElementById('card')
-const card2 = document.getElementById('card2')
+const card = document.getElementById('card');
+const card2 = document.getElementById('card2');
 
 //para que aparezcan objetos o funciones ocultas;
 btnPay.addEventListener('click', () => { stnPay.style.display = "block"; });
