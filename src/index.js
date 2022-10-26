@@ -32,7 +32,7 @@ validar.addEventListener("click", function (event) {
     let inputvalue = document.getElementById("cardNumber").value
     if (inputvalue === "") {
         alert("ingrese un número");
-        // document.location.reload();
+        document.location.reload();
     }
     else {
         //evitamos redireccion de la pagina
