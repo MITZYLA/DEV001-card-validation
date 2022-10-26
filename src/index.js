@@ -29,27 +29,26 @@ const validar = document.getElementById("validacion");
 //le asigno el evento clic al boton y cuando se cliquee el boton se ejecuta la funcion especificada
 validar.addEventListener("click", function (event) {
     //let inputvalue, lo use para que no permita quedar el input en blanco
-    let inputvalue= document.getElementById("cardNumber").value
-    if(inputvalue===""){
+    let inputvalue = document.getElementById("cardNumber").value
+    if (inputvalue === "") {
         alert("ingrese un número");
-       // document.location.reload();
+        // document.location.reload();
     }
-    else{
-       //evitamos redireccion de la pagina
-      event.preventDefault();
-      //declaro la constante creditCardNumber y extraigo el imput del id cardNumber
-      const creditCardNumber = document.getElementById("cardNumber");
-      //verifico la validez de la tarjeta extrayendo el value
-      if (validator.isValid(creditCardNumber.value)) {
-          //aca enmascaro los caracteres
-          const creditCardMask = validator.maskify(creditCardNumber.value)
-          //aca se muestra el mensaje en caso de ser valida la tarjeta
-          //me sugirió reescribir y cambiar las "" y el + por $, ' y {}
-          //alert("Tu tarjeta" + creditCardMask + "es valida para realizar la compra")
-          alert('tu tarjeta${creditCardMask} es valida para realizar la compra')
-      } else {
-          //en caso de no ser valida la tarjeta muestra alert "tarjeta no valida"
-          alert("Tarjeta no valida")
-      }
+    else {
+        //evitamos redireccion de la pagina
+        event.preventDefault();
+        //declaro la constante creditCardNumber y extraigo el imput del id cardNumber
+        const creditCardNumber = document.getElementById("cardNumber");
+        //verifico la validez de la tarjeta extrayendo el value
+        if (validator.isValid(creditCardNumber.value)) {
+            //aca enmascaro los caracteres
+            const creditCardMask = validator.maskify(creditCardNumber.value)
+            //aca se muestra el mensaje en caso de ser valida la tarjeta
+            //me sugirió reescribir y cambiar las "" y el + por $, ' y {}
+            alert("Tu tarjeta " + creditCardMask + " es valida para realizar la compra")
+        } else {
+            //en caso de no ser valida la tarjeta muestra alert "tarjeta no valida"
+            alert("Tarjeta no es valida para realizar la compra")
+        }
     }
 })
