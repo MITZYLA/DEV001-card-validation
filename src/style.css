@@ -1,55 +1,83 @@
-    body{
-        background-color: rgb(202, 169, 240);
-        font-family: Arial, Helvetica, sans-serif; 
-        margin: 100px auto;
-        text-align: center;
+    body {
+      background-image: url(https://i.pinimg.com/736x/ed/d5/44/edd544bd6b033a1d82b1df1af87b3f0a.jpg);
+      background-repeat: no-repeat;
+      background-origin: content-box;
+      background-size: cover;
+      color: black;
+      font-style: italic;
+      font-size: large;
+      margin: 100px auto;
+      text-align: center;
+      
+    
 
-      }
+    }
 
-    #container{
-        width: 60%;
-        margin: 0px auto;
-      }
+    .titulo {background-color: rgb(199, 166, 231);
+    
+    }
+
+    #container {
+      width: 60%;
+      margin: 0px auto;
+    }
 
 
-    .logo{
-        width: 500px;
-        height: 400px;
-        margin: 0px auto;
-      }
+    .logo {
+      width: 500px;
+      height: 400px;
+      margin: 0px auto;
+    }
 
-    footer{
-        background-color: rgb(245, 35, 245);
-     }
+    #stn-pay {
+      border: 1px solid blue;
+      border-radius: 20px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-     img#card{
-        width: 30%;
-        height: 30%;
-        margin: auto;
-      }
+    }
+    
 
-      img#card2{        
-        width: 30%;
-        height: 30%;
-        margin: auto;
-      }
+    footer {
+      color: black;
+      background-color: rgb(199, 166, 231);
+      
+    }
 
-      button#btn-pay.btn-pay-style{
-        color: purple;
-        background-color: burlywood;
-      }
+    img#card {
+      width: 30%;
+      height: 30%;
+      margin: auto;
+    }
 
-      button#btn-pay2.btn-pay-style{
-        color: purple;
-        background-color: burlywood;
-      }
+    img#card2 {
+      width: 30%;
+      height: 30%;
+      margin: auto;
+    }
 
-      button#btn-pay3.btn-pay-style{
-        color: purple;
-        background-color: burlywood;
-      }
+    button#btn-pay.btn-pay-style {
+      color: black;
+      background-color: rgb(224, 195, 158);
+    }
 
- 
-   
+    button#btn-pay2.btn-pay-style {
+      color: rgb(8, 4, 117);
+      background-color: rgb(224, 195, 158);
+    }
 
-     
+    button#btn-pay3.btn-pay-style {
+      color: rgb(8, 4, 117);
+      background-color: rgb(224, 195, 158);
+    }
+
+    #validacion {
+      margin-bottom: 20px;
+      width: 80px;
+      height: 30px;
+      color: rgb(8, 4, 117);
+      background-color:  rgb(224, 195, 158);
+    }
+
+    .vencimiento {
+    display: block;    
+    }

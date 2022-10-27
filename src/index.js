@@ -51,4 +51,4 @@ validar.addEventListener("click", function (event) {
             alert("Tarjeta no es valida para realizar la compra")
         }
     }
-})
+}) 
