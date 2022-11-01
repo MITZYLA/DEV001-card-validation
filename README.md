@@ -31,9 +31,9 @@ Mi objetivo es llegar tanto a usuarios dueños de comercio que quieran ofrecer s
 
 ### 5. Interfaz final.
 
-![Captura1 prototipo](![Captura1 prototipo](https://user-images.githubusercontent.com/114257105/199348339-54d15bc8-fecf-4bb1-84c1-daaf0ad23330.JPG)
+![Captura1 prototipo](https://user-images.githubusercontent.com/114257105/199348339-54d15bc8-fecf-4bb1-84c1-daaf0ad23330.JPG)
 
-![Captura2 prototipo](![Captura2 prototipo](https://user-images.githubusercontent.com/114257105/199348569-e023d089-e5d3-41be-b1ca-5a312b5d9afc.JPG)
+![Captura2 prototipo](https://user-images.githubusercontent.com/114257105/199348569-e023d089-e5d3-41be-b1ca-5a312b5d9afc.JPG)
 
 ### 6. Enlace a Validación de compra.
 
