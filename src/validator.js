@@ -12,6 +12,9 @@ isValid(creditCardNumber) {
         //si al duplicar el numero es mayor o igual a 10 se se divide en 10  (con math.floor extraemos el entero)  y se suma el residuo(value%10) 
         if (value >= 10) {
           value = (Math.floor(value / 10) + value % 10);
+          //transformar numero a string
+          //guardar primer y segundo digito o caracter en una variable
+          //sumarlas dos variables
         }
         //pasa a numero el string
       } else {
